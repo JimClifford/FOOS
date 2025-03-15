@@ -1,0 +1,9 @@
+# Block access to all PHP files except specific ones
+<Files "*.php">
+    Deny from all
+</Files>
+
+# Allow index.php
+<Files "index.php">
+    Allow from all
+</Files>
